@@ -8,7 +8,7 @@
 ## Introduction
 This repository will show a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
-With the CSV files provided you do not need to run the code to create them. But in order to run the SQL commands to search the database you will need to do the following setup.
+In order to run the SQL commands to search the database the steps below go through how to create a database, how to add the necessary information to the database, and how to run the SQL commands. Note that with the CSV files provided it is not necessary to run the provided code to create them, but is still there for curious minds.
 
 ## Creating the Database 
 Download: DB Browser for SQLite
@@ -18,17 +18,17 @@ Steps for Setting up:
 - Create or use an empty database
 
 For creating the database
-- click "new database" to create it
+- click "new database" to create one
 
-To add the tables with the csv files
+To add the tables with the CSV files
 - click "File"
 - click "Import"
-- click "Table from csv file"
-- select the csv file you would like to use
-- double-check the information for example some csv's are comma-separated some are tab-separated make sure when you hit ok all the information is separated properly 
+- click "Table from CSV file"
+- select the CSV file you would like to use
+- double-check the information for example some CSV's are comma-separated some are tab-separated make sure when you hit ok all the information is separated properly 
 
 ## Searching the Database
 To execute/search using the SQL commands do the following:
-- click "Excute SQL"
-- make sure all the csv are in the database bef
+- click "Execute SQL"
+- make sure all the CSV are in the database bef
 - use one of the commands provided
