@@ -1,5 +1,5 @@
 # SQLite
-In order to run the SQL commands to search the database the steps below go through how to create a database, how to add the necessary information to the database, and how to run the SQL commands. Note that with the CSV files provided it is not necessary to run the provided code to create them, but is still there for curious minds.
+All the steps are here for easy use. Note that with the CSV files provided it is not necessary to run the provided code to create them, but is still there for curious minds.
 
 ## Creating the Database 
 Download: DB Browser for SQLite
