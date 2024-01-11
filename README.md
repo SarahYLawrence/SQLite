@@ -14,8 +14,10 @@ Download: DB Browser for SQLite
 Steps for Setting up:
 - Open DB Browser for SQLite
 - Create or have a database
+
 For creating the database
 - click new database to create it
+
 To add the tables with the csv files
 - click file
 - click import
