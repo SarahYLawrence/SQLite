@@ -1,0 +1,95 @@
+import csv
+import re
+import json
+import os
+from tqdm import tqdm
+# CSV writer
+def csvstuff(csv_file,new_data):
+    csv_writer = csv.writer(csv_file)
+    for row in new_data:
+        csv_writer.writerow(row)
+
+def main():
+    # File paths 
+    find_directory = os.path.dirname(os.path.abspath(__file__))
+    filepath = os.path.join(find_directory, "arXiv21.json")
+    paper_path = os.path.join(find_directory, "Paper.csv")
+    author_path = os.path.join(find_directory, "AuthorsN.csv")
+    cite_path = os.path.join(find_directory, "Cite.csv")
+    catgories_path = os.path.join(find_directory, "Catgories.csv")
+    write_path = os.path.join(find_directory, "WriteN.csv")
+    
+    # Column Titles for Paper csv
+    with open(paper_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(['Paper ID','Title', 'LastUpdate'])
+    # Column Titles for Author csv
+    with open(author_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(['full name','First name', 'Last name'])
+   # Column Titles for Cite csv
+    with open(cite_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(['Paper ID','Cites'])
+    # Column Titles for Catgories csv
+    with open(catgories_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(['Paper ID','Catgorie'])
+    # Column Titles for Write csv
+    with open(write_path, 'w', newline='') as csv_file:
+        csv_writer = csv.writer(csv_file)
+        csv_writer.writerow(['Paper ID','full name', 'Title', 'Submit','LastUpdate'])
+    
+    # Information into csv tables
+    with open(filepath, 'r', encoding="utf-8") as json_file:
+        for line in tqdm(json_file):
+            # Data is a dictionary of attributes
+            paper = json.loads(line)
+            paper_id = paper['id']
+            lst_author = paper['authors']
+            # Rest of the keys
+            title = paper['title']
+            categories = paper['categories']
+            last_update = paper['last_update']
+            cite = paper['cited']
+            submit = paper['submitter']
+            
+            # Cleaning and Orgnizing Information into the CSV's
+            # Paper csv
+            with open(paper_path, 'a', newline='') as csv_file:
+                paper_data = [[paper_id, (''.join(title)).replace("\n", ""),last_update]]
+                csvstuff(csv_file,paper_data)
+            # Author csv
+            with open(author_path, 'a', newline='') as csv_file:
+                Lastname = [] 
+                Firstname = []  
+                for one_author in lst_author:
+                 parts = one_author.split(' ')
+                 Lastname = (parts[0])
+                 Firstname = (parts[-1])
+                 author_data = [[Firstname +" " +Lastname,Firstname, Lastname]]
+                 csvstuff(csv_file,author_data)
+            # Cite csv
+            with open(cite_path, 'a', newline='') as csv_file:
+                numbers = re.findall(r'\d+\.\d+|\d+', cite)
+                for one_cite in numbers:
+                 cite_data = [[paper_id, one_cite]]
+                 csvstuff(csv_file,cite_data)
+                if not numbers:
+                    csvstuff(csv_file, [[paper_id, ""]])
+            # Categories csv
+            with open(catgories_path, 'a', newline='') as csv_file:   
+                for one_catg in categories.split(' '):
+                 catgories_data = [[paper_id,one_catg]]
+                 csvstuff(csv_file,catgories_data)
+            # Write csv
+            with open(write_path, 'a', newline='') as csv_file:
+                for one_author in lst_author:
+                 parts = one_author.split(' ')
+                 Lastname = (parts[0])
+                 Firstname = (parts[-1])
+                 cite_data = [[paper_id, Firstname +" " +Lastname, (''.join(title)).replace("\n", ""), submit, last_update]]
+                 csvstuff(csv_file,cite_data)
+            
+if __name__ == "__main__":
+ main()
