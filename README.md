@@ -18,3 +18,8 @@ To add the tables with the CSV files
 - select the CSV file you would like to use
 - double-check the information for example some CSV's are comma-separated some are tab-separated make sure when you hit ok all the information is separated properly 
 
+## Searching the Database
+To execute/search using the SQL commands do the following after finishing the first steps:
+- click "Execute SQL"
+- make sure all the CSV are in the database bef
+- use one of the commands provided
