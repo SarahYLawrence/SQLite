@@ -8,6 +8,8 @@
 ## Introduction
 This repository will show a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
+With the CSV files provided you do not need to run the code to create them. But in order to run the SQL commands to search the database you will need to do the following setup.
+
 ## Creating the Database 
 Download: DB Browser for SQLite
 
@@ -28,5 +30,5 @@ To add the tables with the csv files
 ## Searching the Database
 To execute/search using the SQL commands do the following:
 - click "Excute SQL"
-- make sure all the csv are their
+- make sure all the csv are in the database bef
 - use one of the commands provided
