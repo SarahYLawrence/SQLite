@@ -29,7 +29,7 @@ To add the tables with the CSV files
 ## Searching the Database
 To execute/search using the SQL commands do the following after finishing the first steps:
 - click "Execute SQL"
-- make sure all the CSV are in the database bef
+- make sure all the CSV are in the database before using the SQL commands
 - use one of the commands provided
 
 # Sections provided
