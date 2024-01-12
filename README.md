@@ -1,9 +1,4 @@
 # SQLite
-## Searching the Database
-To execute/search using the SQL commands first setup the database then do the following steps:
-- click "Execute SQL"
-- make sure all the CSV are in the database bef
-- use one of the commands provided
 ## Search Functionalities
 The following are what each search is searching/retrieving in the database. 
 
@@ -17,4 +12,10 @@ The following are what each search is searching/retrieving in the database.
 - 3.8 Finds the title of papers with Solo author
 - 3.9 Finds the authors who had only one publication
 - 3.10 Finds the number of papers by ‘Indranath Sengupta’ with less than 3 authors
+
+## Searching the Database
+To execute/search using the SQL commands first setup the database then do the following steps:
+- click "Execute SQL"
+- make sure all the CSV are in the database bef
+- use one of the commands provided
 
