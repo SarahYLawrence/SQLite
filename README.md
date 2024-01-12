@@ -6,12 +6,14 @@
 - Date Completed: October 23, 2023
 
 ## Introduction
-This repository will show how to set up a database
+In this repository, each section shows a different aspect of creating and using a database. There will be a section on the information needed for the database. Another section will show how that information was organized and gathered. A section will  show 
+how to set up a database, and how to run the provided SQL commands. It also has 
+
 a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
 # Sections
 ## main
-Has a file called 
+Has a file called Database How To's.md
 ## SQL Commands
 This section has all ten SQL search functionalities. The ability of what each SQL search is doing is also described. 
 ## CSV files
