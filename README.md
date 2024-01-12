@@ -13,13 +13,13 @@ a couple of SQL Commands used to search a database. The CSV files used for the d
 
 # Sections
 ## main
-Has a file called Database How To's.md
+Has a file called "Database How To's.md". That file has all the steps on how to set up a database and how to run the SQL commands on your own. 
 ## Code that creates the CSV files
-This section provides a Python code that scrapes information and organizes it into CSV files. It also shows the raw information used. 
+This section shows the raw information used. It also provides a Python code that scrapes and organizes the raw information into CSV files. 
 ## CSV files
-This section provides all the CSV files used to have the searches work properly.
+This section provides CSV files that can be used to have the searches work. Note that some of the CSV for this project were far too big to keep on here so smaller samples are provided. 
 ## SQL Commands
-This section has all ten SQL search functionalities. The ability of what each SQL search is doing is also described. 
+This section has all ten SQL search functionalities. A description of what each functionality is doing is also described. 
 ## Results
-This section has a PDF with the results. It also has steps on how to set up a database and run the SQL commands on your own. 
+This section has a PDF with the results.
 
