@@ -24,7 +24,7 @@ To add the tables with the CSV files
 - click "Import"
 - click "Table from CSV file"
 - select the CSV file you would like to use
-- double-check the information (Note: some CSV's are comma-separated some are tab-separated make sure before hitting ok all the information is separated properly) 
+- double-check the information (Note: some CSV's are comma-separated some are tab-separated make sure before hitting ok that all the information is separated properly) 
 
 ## Searching the Database
 To execute/search using the SQL commands do the following after finishing the first steps:
