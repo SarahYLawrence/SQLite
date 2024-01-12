@@ -6,7 +6,8 @@
 - Date Completed: October 23, 2023
 
 ## Introduction
-This repository will show a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
+This repository will show how to set up a database
+a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
 # How to get started 
 ## Creating the Database 
