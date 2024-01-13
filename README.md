@@ -12,9 +12,9 @@ how to set up a database, and how to run the provided SQL commands. It also has
 a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
 ## main
-Has a file called "Database Steps.md". That file has all the steps on how to set up a database, and how to run the SQL commands on your own. 
+main gives a brief description of this repository. main also has a file called "Database Steps.md". That file has all the steps on how to set up a database, and how to run the SQL commands. 
 ## Code that creates the CSV files
-This section shows the raw information used. It also provides a Python code that scrapes and organizes the raw information into CSV files. 
+This section shows a shortened version of the raw information used for this project. It also provides a Python code that takes that information and organizes it into CSV files. 
 ## CSV files
 This section provides CSV files that can be used to have the searches work. Note that some of the CSV for this project were far too big to keep on here so smaller samples are provided. 
 ## SQL Commands
