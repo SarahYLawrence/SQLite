@@ -12,7 +12,7 @@ how to set up a database, and how to run the provided SQL commands. It also has
 a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
 ## main
-Has a file called "Database Steps.md". That file has all the steps on what to use to start a database, how to set up a database, and how to run the SQL commands on your own. 
+Has a file called "Database Steps.md". That file has all the steps on how to set up a database, and how to run the SQL commands on your own. 
 ## Code that creates the CSV files
 This section shows the raw information used. It also provides a Python code that scrapes and organizes the raw information into CSV files. 
 ## CSV files
