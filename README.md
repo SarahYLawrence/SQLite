@@ -14,7 +14,7 @@ The following are what each search is searching/retrieving in the database.
 - 3.10 Finds the number of papers by ‘Indranath Sengupta’ with less than 3 authors
 
 ## Searching the Database
-To execute/search using the SQL commands first set up the database. The steps to set up the database can be found in the "Database Steps.md" under main. Then do the following steps:
+To execute/search using the SQL commands first set up the database. The steps to set up the database can be found by clicking the "Database Steps.md" file located in the main branch. Then do the following steps:
 - click "Execute SQL"
 - make sure all the CSV are in the database bef
 - use one of the commands provided
