@@ -6,10 +6,8 @@
 - Date Completed: October 23, 2023
 
 ## Introduction
-In this repository, each section shows a different aspect of creating and using a database. There will be a section on the information needed for the database. Another section will show how that information was organized and gathered. A section will have  
-how to set up a database, and how to run the provided SQL commands. It also has 
+In this repository, each section shows a different aspect of creating and using a database. This repository will help someone be able to create a database, insert the files necessary, and run SQL commands.  
 
-a couple of SQL Commands used to search a database. The CSV files used for the database are provided. The code that was created and used to organize the information into the CSV files is also provided. Results of the SQL searches are provided. 
 
 ## main
 main gives a brief description of this repository. main also has a file called "Database Steps.md". That file has all the steps on how to set up a database, and how to run the SQL commands. 
