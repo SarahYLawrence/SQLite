@@ -9,11 +9,12 @@ Steps for Setting up:
 For creating the database
 - click "new database" to create one
 
+## Adding Information to a Database
 To add the tables with the CSV files
 - click "File"
 - click "Import"
 - click "Table from CSV file"
-- select the CSV file you would like to use
+- select the CSV file you would like to use (ex: 
 - double-check the information (Note: some CSV's are comma-separated some are tab-separated make sure before hitting ok that all the information is separated properly) 
 
 ## Searching the Database
