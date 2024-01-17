@@ -1,2 +1,8 @@
-# SQLite-
-This repository will show - SQL Commands - CSV files used for commands - Code that made the CSV files - Results of the commands
+# SQLite
+
+## CSV Provided
+The following are the CSV provided and has the name of the columns each CSV 
+- AuthorsN.csv: 
+- Catgories.csv
+- Cite.csv
+- Paper.csv
