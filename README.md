@@ -3,7 +3,7 @@ A CSV stands for comma-separated values. Meaning commas are like separators for 
 
 The files provided are in CSV format and if put into "DB Browser for SQLite"  can be a helpful place to start when needing information to search in a database. Information on how to add the CSV files to a database is located in the main branch. 
 ## CSV Provided
-The following are the CSVs provided and the column names in the CSVs.
+The following are the CSVs provided and the column names in the CSVs. The column names are provided to help show what is in each file. 
 - AuthorsN.csv: Full name, First name, Last name
 - Catgories.csv: Paper ID, Catgorie
 - Cite.csv: Paper ID, Cites
