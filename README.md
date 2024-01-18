@@ -1,7 +1,7 @@
 # SQLite
+SQL commands are instructions for databases. SQL commands can create, modify, and query databases. These SQL commands are queries used to answer questions.
 ## Search Functionalities
-The following are what each search is searching/retrieving in the database. 
-
+The following are the query number and the question that the query is answering. For example, "3.1" is the query number, and "Finds the title of papers by ‘Minoru Eto’ sorted by update date" is the question that is being answered. 
 - 3.1 Finds the title of papers by ‘Minoru Eto’ sorted by update date
 - 3.2 Finds the number of all the authors with the last name “Rogers”
 - 3.3 Finds the number of authors who co-authored with ‘Wu Wei'
